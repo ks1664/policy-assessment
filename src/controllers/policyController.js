@@ -1,4 +1,8 @@
 const User = require('../models/User');
+const Agent = require('../models/Agent');
+const UserAccount = require('../models/UserAccount');
+const LOB = require('../models/LOB');
+const Carrier = require('../models/Carrier');
 const Policy = require('../models/Policy');
 
 async function searchByUsername(req, res, next) {
